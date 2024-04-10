@@ -1,5 +1,5 @@
 header{
-    background-color: #bE5505;
+    background-color: #7995d7;
     text-align: center;
 }
 img{
@@ -12,7 +12,7 @@ img{
 }
 
 nav{
-    background-color: #ED820E;
+    background-color: #7995d7;
     display: inline-flex;
     width: 20%;
 }
@@ -28,7 +28,7 @@ nav li a{
     font-size: 20px;
 }
 nav li a:hover{
-    background-color: #EC9706;
+    background-color:rgb(19, 53, 203)
 }
 
 
@@ -129,8 +129,3 @@ top: 100%;
 width: 0;
 border-top: 22px solid purple;
 }
-
-  .footer{
-    background-color: black;
-    height: 100px;
-    }
