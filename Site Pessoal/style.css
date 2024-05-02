@@ -21,7 +21,7 @@ nav li{
 }
 
 nav li a{
-    color:white;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     margin: 0;
     padding: 10px;
@@ -53,79 +53,4 @@ main{
 
 img{
     width: 150px;
-}
-
-.tituloFormas{
-    text-align: center;
-    color: #bE5505;
-}
-
-  .quadrado{
-  width: 50px;
-  height: 50px;
-  background-color: red;
-  margin-left: auto;
-  margin-right: auto
-  }
-  .retangulo {
-  width: 100px;
-  height: 50px;
-  background-color: blue;
-  margin-left: auto;
-  margin-right: auto
-  }
-  .triangulo {
-  width: 0;
-  height: 0;
-  border-bottom: 50px solid yellow;
-  border-left: 50px solid rgb(66, 76, 66);
-  margin-left: auto;
-  margin-right: auto
-  /* para deixar transparête aparecendo 
-  só o trângulo, muda-se de solid-cor para solid transparente*/
-  }
-  .trianguloDois {
-  width: 0;
-  height: 0;
-  border-bottom: 50px solid transparent;
-  border-left: 50px solid orangered;
-  margin-left: auto;
-  margin-right: auto;
-  /* para deixar transparête aparecendo 
-  só o trângulo, muda-se de solid-cor para solid transparente*/
-  }
-  .circulo {
-  width: 50px;
-  height: 50px;
-  background-color: green;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-
-  .hexagono {
-width: 80px;
-height: 45px;
-background-color: purple;
-position: relative;
-margin: 25px auto;
-}
-.hexagono:before, .hexagono:after {
-content: "";
-position: absolute;
-width: 0;
-border-left: 40px solid transparent;
-border-right: 40px solid transparent;
-}
-
-.hexagono:before {
-bottom: 100%;
-border-bottom: 22px solid purple;
-}
-
-.hexagono:after {
-top: 100%;
-width: 0;
-border-top: 22px solid purple;
 }
