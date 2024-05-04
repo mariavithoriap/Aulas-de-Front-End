@@ -1,0 +1,30 @@
+header{
+    background-color: #7995d7;
+    text-align: center;
+    height: 100px;
+}
+nav{
+    background-color: #7995d7;
+    display: inline-flex;
+    width: 200px;
+    height: 450px;
+}
+nav li{
+    display: flex;
+}
+
+nav li a{
+    color:white;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+nav li a:hover{
+    background-color:rgb(19, 53, 203)
+}
+main{
+    display: inline-flex;
+    position:absolute;
+    padding: 20px;
+ }

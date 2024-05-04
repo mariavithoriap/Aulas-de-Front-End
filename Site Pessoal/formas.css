@@ -1,11 +1,12 @@
 header{
     background-color: #7995d7;
     text-align: center;
+    height: 100px;
 }
 nav{
     background-color: #7995d7;
     display: inline-flex;
-    width: 20%;
+    width: 200px;
 }
 nav li{
     display: flex;
