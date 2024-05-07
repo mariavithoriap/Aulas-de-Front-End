@@ -1,22 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="meusprojetos.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>formas Geométricas</title>
 
+<script>
+    window.onload = function() {
+        var mainHeight = document.querySelector('main').clientHeight; // Obtém a altura da main
+        var navHeight = document.querySelector('nav').clientHeight; // Obtém a altura da nav
+    
+        if (navHeight > mainHeight) {
+            document.querySelector('main').style.height = navHeight + 'px'; // Define a altura da main igual à altura da nav
+        } else {
+            document.querySelector('nav').style.height = mainHeight + 'px'; // Define a altura da nav igual à altura da main
+        }
+    };
+    
+    </script>
+    
 </head>
 <body>
-    <header><h1>Meus Projetos</h1></header>
+    <header><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNjwZxslayj7k-Az-pjJANjSwp6mQKNm-hIuQjoQ8kg&s" alt="">></header>
     <nav>
         <ul>
-            <li><a href="index.html">Início</a></li>
+          <li ><a href="sobremim.html">Sobre Mim</a></li>
+          <li><a href="meusprojetos.html">Meus Projetos</a></li>
+          <li><a href="curriculo.html">Currículo</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="depoimentos.html">Depoimentos</a></li>
+
         </ul>            
     </nav>
 <main>
-<li><a href="formas.html">Formas Geométricas</a></li>
+    <li><a href="formasGeometricas.html">Formas Geométricas</a></li>
 </main>
 
 </body>
