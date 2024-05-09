@@ -1,10 +1,10 @@
 header{
-    background-color: #7995d7;
+    background-color: #5ebba3;
     text-align: center;
     height: 100px;
 }
 nav{
-    background-color: #7995d7;
+    background-color: #94d1e4;
     display: inline-flex;
     width: 200px;
     height: 450px;
@@ -21,7 +21,7 @@ nav li a{
     font-size: 20px;
 }
 nav li a:hover{
-    background-color:rgb(19, 53, 203)
+    background-color:rgb(197, 23, 130)
 }
 main{
     display: inline-flex;

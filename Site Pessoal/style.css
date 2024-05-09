@@ -1,5 +1,5 @@
 header{
-    background-color: #7995d7;
+    background-color: #ffc1d7;
     text-align: center;
 }
 img{
@@ -7,12 +7,12 @@ img{
     height: 200px; /* height do elemento */
     object-fit: cover;
     object-position: center; /* teste 20% 10% */ 
-    border: 5px solid #FDA172;
+    border: 5px solid #94d1e4;
     border-radius: 30%;
 }
 
 nav{
-    background-color: #7995d7;
+    background-color: #d6c3ff;
     display: inline-flex;
     width: 20%;
 }
